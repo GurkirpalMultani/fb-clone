@@ -31,7 +31,7 @@ function Header() {
      <input type="text" />
 
  </div>
-<div className="header__middle">
+<div className="header__centre">
 <div className="header__option">
         <HomeIcon fontSize="large"></HomeIcon>
     </div>
