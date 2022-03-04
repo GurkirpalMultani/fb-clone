@@ -9,6 +9,10 @@
   background-color: alicebluewhite;
 }
 
+.header__option--active > .MuiSvgIcon-root {
+  color: rgb(49, 119, 180);
+}
+
 .header__input {
   display: flex;
   align-items: center;
@@ -35,6 +39,9 @@
   color: blue;
 }
 
+.header__option--active {
+  border-bottom: 4px solid rgb(101, 101, 230);
+}
 .header__option {
   display: flex;
   align-items: center;
@@ -54,4 +61,17 @@
   border: none;
   background-color: transparent;
   outline-width: 0;
+}
+
+.header__info > h4 {
+  margin-left: 10px;
+}
+
+.header__info {
+  display: flex;
+  align-items: center;
+}
+
+.header__right {
+  display: flex;
 }
