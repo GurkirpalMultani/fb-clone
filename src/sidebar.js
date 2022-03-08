@@ -6,18 +6,21 @@ import EmojiFlagsIcon from "@material-ui/icons/Storefront";
 import ChatIcon from "@material-ui/icons/Chat";
 import StorefrontIcon from "@material-ui/icons/Storefront";
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
+import Chat from "@material-ui/icons/Chat";
 function Sidebar()
 
 {
 
     return (
     <div className="sidebar">
-        <SidebarRow title="loda lelo"/>                
-        <SidebarRow title="hello mother fucker"></SidebarRow>
-        <SidebarRow></SidebarRow>
-        <SidebarRow></SidebarRow>
-        <SidebarRow></SidebarRow>
-        <SidebarRow></SidebarRow>
+        <SidebarRow src={user.photoURL} title={user.displayName} />                
+        <SidebarRow Icon={LocalHospitalIcon} title="Covid-19 ki ma ka bhosda" />
+        <SidebarRow Icon={EmojiFlagsIcon} title="Covid-19 ki ma ka bhosda" />
+        <SidebarRow Icon={PeopleIcon} title="Covid-19 ki ma ka bhosda" />
+        <SidebarRow Icon={ChatIcon} title="Covid-19 ki ma ka bhosda" />
+        <SidebarRow Icon={StorefrontIcon} title="Covid-19 ki ma ka bhosda" />
+        <SidebarRow Icon={ChatIcon} title="Covid-19 ki ma ka bhosda" />
+        <SidebarRow Icon={StorefrontIcon} title="Covid-19 ki ma ka bhosda" />
 
         </div>
     );
