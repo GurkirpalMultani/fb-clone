@@ -17,11 +17,11 @@ function Sidebar()
     <div className="sidebar">
         <SidebarRow src={user.photoURL} title={user.displayName} />                
         <SidebarRow Icon={LocalHospitalIcon} title="Covid-19 ki ma ka bhosda" />
-        <SidebarRow Icon={EmojiFlagsIcon} title="Covid-19 ki ma ka bhosda" />
-        <SidebarRow Icon={PeopleIcon} title="Covid-19 ki ma ka bhosda" />
-        <SidebarRow Icon={ChatIcon} title="Covid-19 ki ma ka bhosda" />
-        <SidebarRow Icon={StorefrontIcon} title="Covid-19 ki ma ka bhosda" />
-        <SidebarRow Icon={ChatIcon} title="Covid-19 ki ma ka bhosda" />
+        <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
+        <SidebarRow Icon={PeopleIcon} title="Friends" />
+        <SidebarRow Icon={ChatIcon} title="Messenger" />
+        <SidebarRow Icon={StorefrontIcon} title="Marketplace" />
+        <SidebarRow Icon={VideoLibraryIcon} title="Videos" />
         <SidebarRow Icon={StorefrontIcon} title="Covid-19 ki ma ka bhosda" />
 
         </div>
