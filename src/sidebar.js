@@ -7,6 +7,8 @@ import ChatIcon from "@material-ui/icons/Chat";
 import StorefrontIcon from "@material-ui/icons/Storefront";
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import Chat from "@material-ui/icons/Chat";
+import user from "@material-ui/icons/VerifiedUser";
+import PeopleIcon from "@material-ui/icons/EmojiPeople"
 function Sidebar()
 
 {
